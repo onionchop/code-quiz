@@ -1,5 +1,5 @@
 // timer 
-
+var time = 70;
 // count variable
 
 // need a buttion and event listener
@@ -16,7 +16,16 @@
 // var timeCounter = 100
 
 // Start Button 
-// function startGame(){
+function startQuiz() {
+    if (quesLanding.className === "hide") {;
+      quesLanding.className = "show";
+      answerChoices.className = "show";
+      landing.className = "hide";
+      landingPara.className = "hide";
+    }
+    renderQuestions();
+    timer();
+  }
 //set attr of welcome div to hude
 //set attr of questions to visible
 //start loop thrpugh ques

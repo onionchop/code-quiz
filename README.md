@@ -4,11 +4,10 @@
 
 
 
-## Tasks Completed
-* 
-* 
-* 
-* 
+## Technologies Used
+* HTML 
+* JavaScript
+* CSS
 
 
 ## Links
@@ -16,5 +15,6 @@
 * Link to the deployed site ()
 
 ## Assets
-[deployed site screenshot1]()
-[deployed site screenshot2]()
+![Screenshot of deployed site](/assets/images/screenshot.png)
+
+

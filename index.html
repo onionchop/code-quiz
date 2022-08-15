@@ -17,13 +17,50 @@
             <div id="count-timer">Time:70</div>
         </div>
     <main>
-        <div>
+        <section>
+          <div>
         <h1>Coding Quiz</h1>
-        </div>
+         </div>
+         <div class="instructions">
         <p>Try to answer all of the code-related questions before the timer runs out. Keep in mind that incorrect answers will penalize your score/time by ten seconds!</p>
-        <div id="quiz"></div>
+          <div id="start">
             <button id="begin">Start Quiz</button>
-        <div id="results"></div>
+             </div>
+         </section>
+        <section id="quiz-card" class="hidden">
+            <div class="quiz title">
+                <h2 class="question"></h2>
+                <div class="answer-choice" id="answers">
+                    <button id="0">A</button>
+                    <button id="1">B</button>
+                    <button id="2">C</button>
+                    <button id="3">D</button>
+                </div>
+            </div>
+            <div id="feedback-style"><span class="feedback"></span></div>
+        </section>
+        <section id="endgame-card" class="hide">
+            <div class="endgame hide" id="end-style">
+                <h2 id="endgame-header">Congrats, you finished the quiz! ☻</h2>
+                <p id="endgame-desc"></p>
+
+                <label for="initials" class="user-input">Type your initials here:</label>
+                <input type="text" id="initials" maxlength="2">
+                <div id="submit-style">
+                <button id="score-submit">Submit</button>
+            </div>
+            </div>
+        </section>
+        <section id="highscore-card" class="hide">
+            <h3 class="highcscore-title">See Highscores</h3>
+            <ol class="highscore-list">  
+
+            </ol>
+            <div id="twobtn-style">
+                <button class="reset">Reset</button>
+            </div>
+        </section>
+        </section>
     </main>
 
     <script src="./assets/js/script.js"></script>
