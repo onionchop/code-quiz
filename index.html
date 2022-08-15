@@ -4,15 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Coding Quiz</title>
 </head>
 <body>
+    <header>
+        <div class="show" id="high-link"><a href="#highscore-card">Highscores</a></div>
+        <div>
+            <span class="score show"></span>
+        </div>
+        <div class="text-timer show">
+            <div id="count-timer">Time:70</div>
+        </div>
     <main>
+        <div>
         <h1>Coding Quiz</h1>
+        </div>
         <p>Try to answer all of the code-related questions before the timer runs out. Keep in mind that incorrect answers will penalize your score/time by ten seconds!</p>
         <div id="quiz"></div>
             <button id="begin">Start Quiz</button>
         <div id="results"></div>
     </main>
+
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>
