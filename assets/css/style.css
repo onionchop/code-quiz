@@ -1,0 +1,66 @@
+body {
+    font-family: "Dank Mono", ui-monospace, monospace;
+}
+
+
+button {
+    background-color: #98de0d;
+    font-size: 1.5rem;
+    padding: 2% 5%;
+    font-family: 'Dosis', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color:#629104 ;
+    color: #EBF5DF;
+    padding: 20px;
+    font-size: 1.75rem;
+}
+
+header a {
+    color: #EBF5DF;
+}
+section {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #b8eac8;
+    text-align: center;
+    padding: 10px;
+    background-color: #629104;
+}
+section h1,h2,h3 {
+    font-size: 2rem;
+    background-color: #629104;
+    color: #EBF5DF;
+}
+section p {
+    font-size: 1.75rem;
+    padding: 10;
+    background-color: #629104;
+    color: #EBF5DF;
+}
+ol {
+    list-style-type: decimal;
+}
+.hidden{
+    display: none;
+}
+.highscore-title{
+    font-size: 2.5rem;
+}
+.show{
+    display: block;
+}
+.user-input{
+    background-color: #629104;
+    padding: 2%;
+    font-size: 1.75rem;
+}
+#highscore-card {
+    padding: 7%;
+    justify-content: space-evenly;
+}

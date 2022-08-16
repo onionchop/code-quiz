@@ -11,10 +11,10 @@
 
 
 ## Links
-* Link to the repo ()
-* Link to the deployed site ()
+* [Link to the repo](https://github.com/onionchop/code-quiz)
+* [Link to the deployed site]()
 
 ## Assets
-![Screenshot of deployed site](/assets/images/screenshot.png)
+![]()
 
 
